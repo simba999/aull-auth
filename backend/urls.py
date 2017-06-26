@@ -5,7 +5,7 @@ from django.contrib import admin
 from .views import app, index
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+    url(r'^admin/$', admin.site.urls),
     url(r'^api/', include('users.urls')),
     url(r'^', app, name='app'),
     url('^auth/login/$', login, name='login'),
