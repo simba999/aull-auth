@@ -8,7 +8,8 @@ from django.shortcuts import render, redirect
 
 def index(request):
     if request.user.is_authenticated():
-        return redirect(reverse("app"))
+        template = 'backend/app.html'
+        return render(request, template)
     else:
         return redirect(settings.LOGIN_REDIRECT_URL)
 
