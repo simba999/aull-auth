@@ -6,19 +6,19 @@ import Breadcrumb from '../../components/Breadcrumb/';
 import Aside from '../../components/Aside/';
 import Footer from '../../components/Footer/';
 
-import Dashboard from '../../views/Dashboard/'
-import Charts from '../../views/Charts/'
-import Widgets from '../../views/Widgets/'
-import Buttons from '../../views/Components/Buttons/'
-import Cards from '../../views/Components/Cards/'
-import Forms from '../../views/Components/Forms/'
-import Modals from '../../views/Components/Modals/'
-import SocialButtons from '../../views/Components/SocialButtons/'
-import Switches from '../../views/Components/Switches/'
-import Tables from '../../views/Components/Tables/'
-import Tabs from '../../views/Components/Tabs/'
-import FontAwesome from '../../views/Icons/FontAwesome/'
-import SimpleLineIcons from '../../views/Icons/SimpleLineIcons/'
+import Dashboard from '../../views/Dashboard/';
+import Charts from '../../views/Charts/';
+import Widgets from '../../views/Widgets/';
+import Buttons from '../../views/Components/Buttons/';
+import Cards from '../../views/Components/Cards/';
+import Forms from '../../views/Components/Forms/';
+import Modals from '../../views/Components/Modals/';
+import SocialButtons from '../../views/Components/SocialButtons/';
+import Switches from '../../views/Components/Switches/';
+import Tables from '../../views/Components/Tables/';
+import Tabs from '../../views/Components/Tabs/';
+import FontAwesome from '../../views/Icons/FontAwesome/';
+import SimpleLineIcons from '../../views/Icons/SimpleLineIcons/';
 
 class Full extends Component {
   render() {
