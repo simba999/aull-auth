@@ -3,7 +3,7 @@ import json
 from django.contrib.auth.decorators import login_required
 from django.conf import settings
 from django.core.urlresolvers import reverse
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, HttpResponse
 
 
 def index(request):
@@ -22,3 +22,8 @@ def app(request):
 
     template = 'backend/app.html'
     return render(request, template, context)
+
+def login(request):
+    print "&&&&&&&&&& login "
+    return HttpResponse("ok")
+    # return render(request, 'accounts/login.html')
