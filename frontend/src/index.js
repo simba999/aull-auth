@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 
 // Containers
@@ -15,7 +15,7 @@ import Page500 from './views/Pages/Page500/';
 const history = createBrowserHistory();
 
 ReactDOM.render((
-  <HashRouter history={history}>
+  <BrowserRouter history={history}>
     <Switch>
       <Route exact path="/login" name="Login Page" component={Login}/>
       <Route exact path="/register" name="Register Page" component={Register}/>
@@ -23,5 +23,5 @@ ReactDOM.render((
       <Route exact path="/500" name="Page 500" component={Page500}/>
       <Route path="/" name="Home" component={Full}/>
     </Switch>
-  </HashRouter>
+  </BrowserRouter>
 ), document.getElementById('root'))
